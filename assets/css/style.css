@@ -1,1 +1,24 @@
-/* Holiii otra vez */
+*{
+	color: #333;
+	font-family: 'Merriweather Sans', sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+.white{
+	color: white;
+}
+.bg-red{
+	background-color: #eb4746;
+}
+
+.navbar-default {
+    background-color: white;
+    border-bottom: 1px solid #eb4746;
+}
+.nav a:hover{
+	border-bottom: 2px solid #eb4746;
+}
+ul.navbar-right li a:hover{
+	background-color: #eb4746;
+}
