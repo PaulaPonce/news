@@ -1,5 +1,4 @@
 *{
-	color: #333;
 	font-family: 'Merriweather Sans', sans-serif;
 	padding: 0;
 	margin: 0;
@@ -21,4 +20,35 @@
 }
 ul.navbar-right li a:hover{
 	background-color: #eb4746;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #eb4746;
+}
+
+/* Header */
+#header img{
+	width: 100%;
+	height: 100%;
+}
+
+.padd-55{
+	padding-top: 20px;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.thumbnail .caption {
+	color: white;
+	background-color: #eb4746;
+	font-weight: 700;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
 }
